@@ -77,7 +77,7 @@ module Main where
 import Prelude
 import Control.Monad.Eff (Eff)
 import Control.Monad.Eff.Console (CONSOLE, log)
-import Control.Monad.Eff.Exception (EXCEPTION, Error, catchException, error, message, throwException)
+import Control.Monad.Eff.Exception (EXCEPTION, catchException, error, message, throwException)
 import Control.Monad.Eff.Random (RANDOM, randomInt)
 
 type PortRange = { min :: Int, max :: Int }
